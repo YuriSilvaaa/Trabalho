@@ -14,7 +14,7 @@ int contarCaracteres(const char *str) {
 }
 
 int main() {
-    const char *minhaString = "teste de numero";
+    const char *String = "teste de numero";
 
     // Chamando a função contarCaracteres() e exibindo o resultado
     std::cout << "Número de caracteres na string: " << contarCaracteres(minhaString) << std::endl;
